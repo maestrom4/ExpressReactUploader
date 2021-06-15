@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Alert, Button } from 'react-bootstrap';
+import { Alert } from 'react-bootstrap';
 
 const Message = ({ msg, variant }) => {
     const [show, setShow] = useState(true);

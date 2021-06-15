@@ -62,7 +62,6 @@ const FileUpload = () => {
    
     <>
      {message ? <Message msg={message} variant={variant}/> : null }
-      {/* <Form noValidate validated={validated} onSubmit={handleSubmit}> */}
       <Form onSubmit={handleSubmit}>
           <Form.Group controlId="formFileXs" className="custom-file mb-3">
               <Form.Label className="custom-file-label">{fileName}</Form.Label>
